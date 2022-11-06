@@ -1,0 +1,2 @@
+python transfer.py  --checkpoints_dir  '/apdcephfs/private_jiaxianchen/PISE_out/8_26_shape'   --nThreads=0  --name=fashion  \
+--results_dir  '/apdcephfs/private_jiaxianchen/PISE_out/8_26_shape/eval' --sn=0 --gt_par=1  --use_rec=0 --use_shape=1 --use_bank=0 
