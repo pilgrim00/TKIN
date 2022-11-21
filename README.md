@@ -16,7 +16,8 @@ Additionally, [DTD dataset](https://paperswithcode.com/dataset/dtd) if needed ca
 If you use this code, please cite our paper.
 
 ```
-@ARTICLE{9944889,  author={Chen, Jiaxiang and Fan, Jiayuan and Ye, Hancheng and Li, Jie and Liao, Yongbing and Chen, Tao},  
+@ARTICLE{9944889,  
+author={Chen, Jiaxiang and Fan, Jiayuan and Ye, Hancheng and Li, Jie and Liao, Yongbing and Chen, Tao},  
 journal={IEEE Transactions on Multimedia},   
 title={Exploring Kernel-based Texture Transfer for Pose-guided Person Image Generation},   
 year={2022},  
