@@ -7,9 +7,9 @@ conda install pytorch=1.2 cudatoolkit=10.0 torchvision
 pip install scikit-image pillow pandas tqdm dominate natsort 
 ```
 # Data
-Data preparation for images , keypoints and parsing maps can follow [PISE](https://github.com/Zhangjinso/PISE),which is based on the DeepFashion-inshop dataset.
+Data preparation for images , keypoints and parsing maps can follow [PISE](https://github.com/Zhangjinso/PISE),which are all based on the DeepFashion-inshop dataset.
 
-Additionally, [DTD dataset](https://paperswithcode.com/dataset/dtd) if needed can be download from [baidu](https://pan.baidu.com/s/11HTqi2esY9nMorzcSi1qkg)(fectch code: 4z7r)
+Additionally, [DTD dataset](https://paperswithcode.com/dataset/dtd) if needed can be downloaded from [baidu](https://pan.baidu.com/s/11HTqi2esY9nMorzcSi1qkg)(fectch code: 4z7r)
 
 # Citation
 
