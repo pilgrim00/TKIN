@@ -1,6 +1,26 @@
 # TKIN
 This is for our paper "[Exploring Kernel-based Texture Transfer for Pose-guided Person Image Generation](10.1109/TMM.2022.3221351)" which is accepted by the IEEE Transactions on Multimedia(TMM).
-# abstract
-Pose-guided person image generation that aims to transfer the pose of a given person to a target pose has recently received lots of research attention. Due to the spatial misalignment and occlusions of different local body parts by pose variations, this task is still challenging especially in maintaining high-fidelity textures and body structures in generated images. Besides, most works also suffer from the limited number of texture styles in the given person datasets, restricting the diversity of generated persons' appearances. To solve these problems, we design a Kernel-based Texture-Fusion Joint Refinement Network (TFJR-Net) to jointly refine the structure and texture information of generated images. First, we leverage a bone-map representation to guide the generation of human parsing maps, which has more structure priors and richer context information than traditional key-point maps, thus reduce the uncertainty of generated body structures. Next, a Texture-Kernel Injection Normalization module (TKIN) is proposed to inject the per-region texture-kernel into the corresponding semantic region from the human parsing map, which decouples the texture and shape information, and also preserves fine-grained features for complex textures. Furthermore, we are the first to introduce external texture patterns outside of the dataset in human semantic regions such as the upper clothes. We fuse the two texture domains in a shared texture space through our designed texture-fusion TKIN modules. Extensive experiments are conducted on the Deepfashion dataset, with the DTD dataset as an external texture source. The experimental results demonstrate the superiority of our proposed method in generating persons of better textures and structures than state-of-the-art works, and also show the generalization ability of our proposed method to absorb diversified external textures for generating person images. 
-# Thanks
+# Requirement
+```
+conda create -n tkin python=3.6
+conda install pytorch=1.2 cudatoolkit=10.0 torchvision
+pip install scikit-image pillow pandas tqdm dominate natsort 
+```
+# Data
+Data preparation for images , keypoints and parsing maps can follow [PISE](https://github.com/Zhangjinso/PISE),which is based on the DeepFashion-inshop dataset.
+Additionally, [DTD dataset](https://paperswithcode.com/dataset/dtd) if needed can be download from [baidu](https://pan.baidu.com/s/11HTqi2esY9nMorzcSi1qkg)(fectch code: 4z7r)
+
+# Citation
+
+If you use this code, please cite our paper.
+
+```
+@ARTICLE{9944889,  author={Chen, Jiaxiang and Fan, Jiayuan and Ye, Hancheng and Li, Jie and Liao, Yongbing and Chen, Tao},  
+journal={IEEE Transactions on Multimedia},   
+title={Exploring Kernel-based Texture Transfer for Pose-guided Person Image Generation},   
+year={2022},  
+pages={1-14},  
+doi={10.1109/TMM.2022.3221351}}
+```
+# Acknowledgments
 Our code is based on the [GFLA](https://github.com/RenYurui/Global-Flow-Local-Attention) and [PISE](https://github.com/Zhangjinso/PISE).
