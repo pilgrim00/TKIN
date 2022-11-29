@@ -1,5 +1,5 @@
 # TKIN
-This is for our paper "[Exploring Kernel-based Texture Transfer for Pose-guided Person Image Generation](10.1109/TMM.2022.3221351)" which is accepted by the IEEE Transactions on Multimedia(TMM).
+This is for our paper "[Exploring Kernel-based Texture Transfer for Pose-guided Person Image Generation](https://ieeexplore.ieee.org/document/9944889/)" which is accepted by the IEEE Transactions on Multimedia(TMM).
 # Requirement
 ```
 conda create -n tkin python=3.6
